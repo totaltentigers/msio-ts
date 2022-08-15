@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -31,7 +31,19 @@
     "trailingComma": "es5"
   },
   "name": "msio-ts",
-  "author": "thetigeregg",
+  "author": "thetigeregg <thetigeregg@gmail.com>",
+  "description": "A TypeScript wrapper for the MapleStory: IO API",
+  "repository": {
+    "url": "https://github.com/thetigeregg/msio-ts",
+    "type": "git",
+    "directory": "/"
+  },
+  "bugs": {
+    "url": "https://github.com/thetigeregg/msio-ts/issues"
+  },
+  "keywords": [
+    "maplestory"
+  ],
   "module": "dist/msio-ts.esm.js",
   "size-limit": [
     {
